@@ -97,3 +97,31 @@
 .donate h3{
   color: red;
 }
+
+
+.contribute{
+  margin: 0 30px 30px 30px;
+}
+.donation{
+  display: flex;
+  gap: 125px;
+  margin-bottom: 20px;
+}
+.head h3{
+  font-size: 45px;
+  font-weight: bold;
+  color: #121212;
+  line-height: auto;
+}
+.head p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #707070;
+  line-height: 28px;
+  margin: 15px 0;
+  text-align: justify;
+}
+.image img{
+  max-width: 500px;
+  height: 300px;
+}

@@ -9,3 +9,40 @@
   font-weight: normal;
   font-style: normal;
 }
+.header-section{
+  background-image: url(../images/donation5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1{
+  font-size: 65px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: auto;
+  text-align: center;
+}
+.banner p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 28px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.btn button{
+  padding: 15px 13px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FF5959;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+  cursor: pointer;
+}

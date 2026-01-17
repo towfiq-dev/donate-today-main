@@ -9,9 +9,30 @@
 .banner p{
   font-size: 14px;
 }
-.btn button{
+.btn{
   padding: 10px 13px;
   font-size: 15px;
   font-weight: 500;
+}
+.section-01{
+  margin: 50px 20px;
+}
+.heading h2{
+  font-size: 22px;
+}
+.heading p{
+  font-size: 14px;
+  margin: 15px 0;
+}
+.card-box{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+.card{
+  padding: 10px 25px;
+}
+.button p{
+  font-size: 16px;
 }
 }

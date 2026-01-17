@@ -32,11 +32,11 @@
   color: #FFFFFF;
   line-height: 28px;
 }
-.btn{
+.btns{
   display: flex;
   justify-content: center;
 }
-.btn button{
+.btn{
   padding: 15px 13px;
   border: none;
   border-radius: 8px;
@@ -45,4 +45,55 @@
   font-weight: 600;
   color: #FFFFFF;
   cursor: pointer;
+  margin-top: 30px;
+}
+.section-01{
+  margin: 100px;
+}
+.heading{
+  text-align: center;
+}
+.heading h2{
+  font-size: 45px;
+  font-weight: bold;
+  line-height: auto;
+  color: #121212;
+}
+.heading p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #707070;
+  margin: 25px 0;
+}
+.card-box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  border: none;
+  border-radius: 5px;
+  background-color: #FAFAFA;
+  padding: 30px 45px;
+}
+.button p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #B3B3B3;
+  border-bottom: 1px solid blue;
+  margin-top: 60px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.donate{
+  border: 2px solid red;
+  background-color: #ff59594e;
+}
+.donate h3{
+  color: red;
 }
